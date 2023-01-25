@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #4a536b;
+    color: #fff;
+    height: 60px;
+    padding: 20px 40px;
+}
+
+.header__link {
+    list-style-type: none;
+}
+
+.header a {
+    color: #fff;
+    transition: color 0.2s ease-in;
+}
+
+.header a:hover {
+    color: #ff9a8d;
+}
+
+.auth {
+    display: flex;
+}
+
+.auth__links > *:not(:last-child) {
+    margin-right: 8px;
+}
+
+.auth__logout {
+    color: #fff;
+    transition: color 0.2s ease-in;
+    cursor: pointer;
+}
+
+.auth__logout:hover {
+    color: #ff9a8d;
+}
